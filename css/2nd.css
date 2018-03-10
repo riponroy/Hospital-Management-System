@@ -1,0 +1,118 @@
+body{
+	background-image: url("../img/ripon.jpg");
+	background-size: 80%;
+	background-color:#f4f4f4;
+	color:black;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:normal;
+	/* Same as above */
+	font: normal 16px Arial, Helvetica, sans-serif;
+
+	line-height:1.6em;
+	margin:0;
+}
+input[type=text]{
+			 width: 150px;
+			 box-sizing: border-box;
+			 border: 3px solid lightgreen;
+			 font-size: 14px;
+			 background-color: white;
+			 /*background-image: url('../img/iconn12.png');*/
+	     background-position: right;
+			 background-repeat: no-repeat;
+			 padding: 20px 20px 20px 20px;
+			 transition: width 0.5s ease-in-out;
+			 border-radius: 10px;
+		 }
+		 input[type=text]:focus{
+			 width: 100%;
+		 }
+
+
+
+
+
+.hd{
+	background-color: red;
+	width: 1320px;
+	height: 85px;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+}
+
+
+
+.dropdown {
+    float:left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn { /*main dropdown menu color*/
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding:33px 34px;/*it,s dropdown padding*/
+    background-color: inherit;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#bb763e;/*khiry color*/
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.sr{
+
+	margin-left:620px;
+	position:absolute;
+	margin-top:-70px;
+
+}
+	.ft{
+	background-color:blue;
+	width:1350px;
+	height:70px;
+	color:white;
+	margin-top:-23px;
+	text-align: center;
+	padding-top: 10px;
+}
+.btn button{
+        background-color: #ff3d00;
+        width: 145px;
+        height: 50px;
+        position: absolute;
+        margin-left: 1100px;
+        margin-right: 18px;
+	      margin-top:-50px;
+        border: none;
+        border-radius: 9px;
+    }

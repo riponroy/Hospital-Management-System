@@ -1,0 +1,91 @@
+body{
+        background-image: url(../img/sr.jpg);  /*background pic */
+        background-repeat:no-repeat;
+}
+
+    /*heading line design*/
+      .name h1{
+        text-align:center;
+        color: #ff6000;
+        font-size: 2em;
+        margin-top:-8px;
+        width: 1366px;
+        height: 75px;
+        background-color: #fbeab6;
+        padding-top: 15px;
+        margin-left:-10px;
+
+    }
+    .name .logo img{
+        position: absolute;
+    }
+     .btn button{
+        background-color: #ff3d00;
+        width: 145px;
+        height: 50px;
+        float: right;
+        margin-top: 10px;
+        margin-right: 18px;
+        border: none;
+        border-radius: 9px;
+    }
+
+    input[type=text], input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=submit] {
+        width: 100%;
+        background-color:#ff6000;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+    div {
+        border-radius: 5px;
+        /*background-color:gray;/*background-color*/
+
+        padding: 0px;
+    }
+    .fmn form{
+  border-radius:10px;
+  background-color: #35424a;/*form background color*/
+  margin-top: 0px;
+  opacity: .8;
+  color: white;
+  padding-left: 30px;
+  padding-top:60px;
+  padding-right: 30px;
+  padding-bottom: 0px;
+  height:300px;
+  width: 490px;
+  margin-left: 400px;
+  margin-top:80px;
+
+}
+
+  .ft{
+  background-color:blue;
+  width:1370px;
+  height:70px;
+  color:white;
+  margin-top:600px;
+  margin-left:-10px;
+  text-align: center;
+  padding-top: 10px;
+
+}

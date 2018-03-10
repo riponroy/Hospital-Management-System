@@ -1,0 +1,76 @@
+body{
+  font-family: Arial,Helvetica,sans-serif;
+  color: black;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-image: url(../img/new.jpg);  /*background pic */
+  background-repeat: no-repeat;
+
+}
+
+/*heading line design*/
+  .name h1{
+    text-align:center;
+    color: #ff6000;
+    font-size: 2em;
+    margin-top: 0;
+    width: 1366px;
+    height: 75px;
+    background-color: #fbeab6;
+    padding-top: 15px;
+    margin-left: 0;
+
+}
+.name .logo img{
+position: absolute;
+}
+ #btn button{
+   background-color: #ff3d00;
+     width: 145px;
+     height: 50px;
+     float: right;
+     margin-top: 10px;
+     margin-right: 18px;
+     border: none;
+     border-radius: 9px;
+
+}
+input[type=text],input[type=password] {
+    width: 100%;
+    padding: 10px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color:#eb4917;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+/*main from design*/
+ .fmn form{
+   border-radius: 5px;
+   background-color: #35424a;/*form background color*/
+   width: 250px;
+   height: 120px;
+   padding: 205px;
+   padding-top: 40px;
+   margin-left: 316px;
+   margin-top: 0px;
+   opacity: .9;
+   color: white;
+
+}

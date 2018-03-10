@@ -1,0 +1,50 @@
+
+.body{
+  margin: 0px;
+  padding: 0px;
+
+}
+.header{
+    width: 1366px;
+    height: 120px;
+    background-color: gray;
+    color: white;
+    margin-left: -8px;
+    text-align: center;
+    padding-top: 23px;
+}
+
+.main{
+  background-image: url(../img/tablebepi.jpg);
+}
+
+
+
+
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 52%;
+    margin-top: 0px;
+    margin-left: 300px;
+
+}
+
+#customers td, #customers th {
+    border: 1px solid #1a1b1a;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: gray;}
+#customers tr:nth-child(odd){background-color: white;}
+
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #29b6f6;
+    color: white;
+}
